@@ -1,0 +1,20 @@
+//
+//  Alipay_PrefixHeader.pch
+//  支付Demo
+//
+//  Created by Mark_Lee on 16/5/22.
+//  Copyright © 2016年 MarkLee. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+#import "MLPayDefine.h"
